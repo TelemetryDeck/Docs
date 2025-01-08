@@ -40,7 +40,7 @@ import {
 } from "@typedigital/telemetrydeck-react";
 import { Dashboard } from "./Dashboard";
 
-const td = createTelemetryDeck({ app: process.env.APP_ID, user: "anonymous" });
+const td = createTelemetryDeck({ appID: process.env.APP_ID, clientUser: "anonymous" });
 
 const App = () => {
   return (
